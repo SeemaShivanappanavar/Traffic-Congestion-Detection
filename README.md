@@ -38,6 +38,12 @@ Roboflow Project:[Traffic-Congestion-Detection](https://universe.roboflow.com/ti
 
 ## YOLO object detection in images
 
+## Clone the repo
+
+```bash
+git clone https://github.com/SeemaShivanappanavar/Traffic-Congestion-Detection.git
+cd Traffic-Congestion-Detection
+```
 ## Installation
 
 ```bash
@@ -46,7 +52,14 @@ Roboflow Project:[Traffic-Congestion-Detection](https://universe.roboflow.com/ti
 ```
 ## To Run the project
 
+### YOLOv8n
+
 ```bash
 python traffic_detection.py --image images/image1.jpg
 ```
 
+### YOLOv12n
+
+```bash
+python traffic_detection.py --image images/image1.jpg --model v12/best.pt
+```
