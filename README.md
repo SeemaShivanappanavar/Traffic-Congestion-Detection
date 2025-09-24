@@ -40,8 +40,9 @@ Roboflow Project:[Traffic-Congestion-Detection](https://universe.roboflow.com/ti
 
 ## Installation
 
-* pip install ultralytics
-* pip install roboflow
-
-<!--## To Run the project-->
+```bash
+ pip install ultralytics
+ pip install roboflow
+```
+<!-- ## To Run the project-->
 
