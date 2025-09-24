@@ -47,6 +47,6 @@ Roboflow Project:[Traffic-Congestion-Detection](https://universe.roboflow.com/ti
 ## To Run the project
 
 ```bash
-python traffic_detection.py --image test.jpg
+python traffic_detection.py --image images/image1.jpg
 ```
 
