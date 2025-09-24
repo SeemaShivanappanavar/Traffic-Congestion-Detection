@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import argparse
 from ultralytics import YOLO
 import cv2
@@ -60,3 +61,4 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
     main(args.image, args.model)
+

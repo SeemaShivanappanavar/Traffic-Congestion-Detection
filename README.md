@@ -1,6 +1,6 @@
-# 🚗 Real-Time Traffic Density Estimation with YOLOv8
+# 🚗 Real-Time Traffic Congestion Estimation with YOLOv8/YOLOv10/YOLOv12
 
-![Traffic Congestion Sample](./images/image1.png)
+<!-- ![Traffic Congestion Sample](./images/image1.png) -->
 
 
 ## 🔍 Overview
@@ -21,10 +21,10 @@ The pivotal milestones achieved in our project include:
 The Top-View Vehicle Detection Image Dataset for YOLOv8/YOLOv10/YOLOV12 is essential for tasks like traffic monitoring and urban planning.
 
 🔍 Specifications
-  *🚗 Class: 'Vehicle' including bike, bus, car, cng, cycle, mini - truck, people, rickshaw and buses.
-  *🖼️ Total Images: 9.9k
-  *📏 Image Dimensions: 640x640 pixels
-  *📂 Format: YOLOv8/YOLOv10/YOLOv12 annotation format
+  * 🚗 Class: 'Vehicle' including bike, bus, car, cng, cycle, mini - truck, people, rickshaw and buses.
+  * 🖼️ Total Images: 9.9k
+  * 📏 Image Dimensions: 640x640 pixels
+  * 📂 Format: YOLOv8/YOLOv10/YOLOv12 annotation format
 
 ## 🗃️ Sources
 
@@ -35,3 +35,31 @@ Images were extracted using [Roboflow](https://universe.roboflow.com/tishas-work
 The dataset is publicly available on Roboflow:
 
 Roboflow Project:[Traffic-Congestion-Detection](https://universe.roboflow.com/tishas-workspace/traffic-congestion-detection-16ol4)
+
+## YOLO object detection in images
+
+## Clone the repo
+
+```bash
+git clone https://github.com/SeemaShivanappanavar/Traffic-Congestion-Detection.git
+cd Traffic-Congestion-Detection
+```
+## Installation
+
+```bash
+ pip install ultralytics
+ pip install roboflow
+```
+## To Run the project
+
+### YOLOv8n
+
+```bash
+python traffic_detection.py --image images/image1.jpg
+```
+
+### YOLOv12n
+
+```bash
+python traffic_detection.py --image images/image1.jpg --model v12/best.pt
+```
